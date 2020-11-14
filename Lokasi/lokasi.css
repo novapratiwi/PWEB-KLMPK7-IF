@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1{
+    font-family:"Roboto";
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    color: #0C5256;
+}
+
+.kotak{
+    display : flex;
+    height: 400px;;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kotak #maps{
+    height: 200px;
+    width: 200px;
+    border: none;
+    margin: 45px;
+    background-color: white; 
+    background-image: url(gmaps.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-color: #0C5256;
+    border: 5px solid #0C5256;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+
+.kotak #lainnya{
+    height: 200px;
+    width: 200px;
+    border: none;
+    margin: 45px;
+    background-color: white; 
+    background-image: url(plus.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 200px 200px;
+    background-repeat: no-repeat; 
+    border-color: #0C5256;
+    border: 5px solid #0C5256;
+    box-sizing: border-box;
+    border-radius: 50px;
+}

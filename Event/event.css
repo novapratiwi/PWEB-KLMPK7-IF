@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+
+
+.kotak .festival{
+    background-image: url("festival.png");
+    background-size: cover;
+    height: 418px;
+    left: 0px;
+    top: 84px;
+}
+
+#judul{
+    font-family: "righteous";
+    width: 819px;
+    height: 238px;
+    font-size: 96px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-top: 100px;
+    opacity: 90%;
+}
+
+.event1{
+    margin: 77px;
+    justify-content: center;
+    display: flex;
+    width: 1340px;
+    height: 704px;
+    background-color: white;
+    border-color: #0C5256;
+    border: 5px solid #0C5256;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#gambarevent1{
+    width: 286px;
+    height: 354px;
+    margin: 51px;
+    background-image: url("event1.png");
+    background-size: cover;
+    border-radius: 44px;
+}
+
+#txt1{
+    margin-left: 50px;
+    width: 630px;
+    font-family: "roboto";
+    font-size: 25px;
+}
+
+#info1{
+    margin-left: 50px;
+    width: 630px;
+    font-family: "roboto";
+    font-size: 20px;
+    
+}
+
+#tiket{
+    background-image: url("tiket.png");
+    background-size: cover;
+    background-position-x: -13px;
+    width: 67px;
+    height: 67px;
+}
+
+table tr td a{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #2D9CDB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.event2{
+    margin: 77px;
+    justify-content: center;
+    display: flex;
+    width: 1340px;
+    height: 704px;
+    background-color: white;
+    border-color: #0C5256;
+    border: 5px solid #0C5256;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#gambarevent2{
+    width: 286px;
+    height: 354px;
+    margin: 51px;
+    background-image: url("event2.jpg");
+    background-size: cover;
+    border-radius: 44px;
+}
+
+#txt2{
+    margin-left: 50px;
+    width: 630px;
+    font-family: "roboto";
+    font-size: 25px;
+}
+
+#info2{
+    margin-left: 50px;
+    width: 630px;
+    font-family: "roboto";
+    font-size: 20px;
+}

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+/* style untuk home*/
+
+.header{
+	text-align: center;
+	margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+
+	
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+.bagian1 .gmbr{
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	height: 621px;
+	background-image: url("laut.jpeg");
+	background-size: cover;
+	line-height: 119px;	
+}
+
+.slmtdtg{
+	font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	letter-spacing: 20px;
+	color:  #0C5256;
+	font-family: "Righteous";
+	font-size: 96px;
+	text-align: center;
+}
+
+table{
+	margin-top: 149px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+input[type="text"], select{
+	width: 522px;
+	height: 122px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	font-size: 36px;
+	color: #0C5256;
+	text-align: center;
+}
+
+.container .tujuan a #cari{
+	background-image: url(cari.jpg);
+	width: 130px;
+	height: 122px;
+	text-align: center;
+	border: none;
+	background-size: cover;
+	align-items: center;
+	margin-left: 0px;
+}
+
+button:hover{
+	color: #00cfda;
+}
+
+.container .tujuan ::placeholder{
+	font-family: "Roboto", 'Times New Roman', Times, serif;
+	font-weight: 100px;
+	color: #0C5256;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#boxfstvl{
+	display: flex;
+	justify-content: center;
+}
+
+.festival{
+	margin-top: 141.5px;
+	text-align: center;
+	font-family: "Roboto", 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 62px;
+	color: #0C5256;
+}
+
+
+
+.festival #fstvl1{
+	background-image: url("festival1.jpg");
+	background-size: cover;
+	width: 238px;
+	height: 313px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 37px 5px 50px;
+}
+
+.festival #fstvl2{
+	background-image: url("festival2.jpg");
+	background-size: cover;
+	width: 238px;
+	height: 313px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 0px 5px;
+}
+
+.festival #fstvl3{
+	background-image: url("festival3.jpg");
+	background-size: cover;
+	width: 238px;
+	height: 313px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 37px 5px 37px;
+}
+
+.festival #fstvl4{
+	background-image: url("festival4.jpeg");
+	background-size: cover;
+	width: 238px;
+	height: 313px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 0px 5px;
+}
+
+.festival #fstvl5{
+	background-image: url("festival5.png");
+	background-size: cover;
+	width: 238px;
+	height: 313px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 50px 5px 37px;
+}
+
+input[type="button"]{
+	font-family: "Roboto", 'Times New Roman', Times, serif;
+	height: 64px;
+	width: 286px;
+	background-color: #0C5256;
+	border-radius: 50px;
+	margin-left: 1103px;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#boxwisata{
+	display: flex;
+	justify-content: center;
+}
+
+.wisata{
+	margin-top: 216px;
+	text-align: center;
+	font-family: "Roboto", 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 62px;
+	color: #0C5256;
+	font-weight: bold;
+}
+
+.wisata #rajaampat{
+	background-image: url("RajaAmpat.jpg");
+	background-size: cover;
+	width: 421px;
+	height: 254px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 38px 5px 50px;
+}
+
+.wisata #baluran{
+	background-image: url("Baluran.jpg");
+	background-size: cover;
+	width: 421px;
+	height: 254px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 0px 5px;
+}
+
+.wisata #oetune{
+	background-image: url(Oetune.jpg);
+	background-size: cover;
+	width: 421px;
+	height: 254px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 50px 5px 38px;
+}
+
+.nama{
+	font-family: "Roboto", 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000000;
+	border: none;
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+#boxmakanan{
+	display: flex;
+	justify-content: center;
+}
+
+.makanan{
+	margin-top: 216px;
+	text-align: center;
+	font-family: "Roboto";
+	font-style: italic;
+	font-size: 62px;
+	color: #0C5256;
+	font-weight: bold;
+}
+
+.makanan #gudeg{
+	background-image: url("gudeg.jpg");
+	background-size: cover;
+	width: 291px;
+	height: 260px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 57px 5px 50px;
+}
+
+.makanan #satepdg{
+	background-image: url("sate\ padang.jpg");
+	background-size: cover;
+	width: 291px;
+	height: 260px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 0px 5px;
+}
+
+.makanan #keraktlr{
+	background-image: url("KerakTelor.jpg");
+	background-size: cover;
+	width: 291px;
+	height: 260px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 57px 5px 57px;
+}
+
+.makanan #ayambetutu{
+	background-image: url("AyamBetutu.jpg");
+	background-size: cover;
+	width: 291px;
+	height: 260px;
+	border-radius: 50px;
+	border: 5px solid #0C5256;
+	box-sizing: border-box;
+	margin: 26px 50px 5px 0px;
+}

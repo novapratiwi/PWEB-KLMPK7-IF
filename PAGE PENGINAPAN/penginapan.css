@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+.utama .gmbr{
+    margin: auto;
+	height: 418px;
+	background-image: url("utama.png");
+    background-size: cover;
+}
+
+.tujuan{
+	font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	color:  #ffffff;
+	font-family: "Righteous";
+    font-size: 48px;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.tujuan > span{
+    font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	color:  #ffffff;
+	font-family: "Righteous";
+    font-size: 144px;
+}
+
+.atas{
+    justify-content: center;
+    display: flex;
+    margin-top: 103px;
+}
+
+.bawah{
+    justify-content: center;
+    display: flex;
+    margin-top: 146px;
+}
+
+.kotak{
+    width: 362px;
+    height: 570px;
+    border: 5px #0C5256 solid;
+    border-radius: 18px;
+    margin: 0px 62.5px 0px;
+}
+
+#penginapan1{
+    background-image: url("hotel1.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#penginapan2{
+    background-image: url("hotel2.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#penginapan3{
+    background-image: url("hotel3.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#penginapan4{
+    background-image: url("hotel4.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#penginapan5{
+    background-image: url("hotel5.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#penginapan6{
+    background-image: url("hotel6.png");
+    width: 328px;
+    height: 280px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.nama{
+    font-family: "Red Rose", 'Times New Roman', Times, serif;
+    font-size: 27px;
+    width: 328px;
+    margin-top: 14px;
+    margin-left: 17px;
+    color: black;
+}
+
+.bintangpesan{
+    display: flex;
+}
+
+.bintang4{
+    background-image: url("bintang4.png");
+    width: 160px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 17px;
+}
+
+.bintang3{
+    background-image: url("bintang3.png");
+    width: 160px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 17px;
+}
+
+.bintang4spesial{
+    background-image: url("bintang4.png");
+    width: 160px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#pesan{
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2D9CDB;
+    margin-left: 79px;
+    margin-top: 20px;
+}
+
+#pesanspesial{
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2D9CDB;
+    margin-left: 79px;
+    margin-top: 48px;
+}
+
+.lokasi{
+    background-color: #0C5256;
+    width: 205px;
+    height: 78px;
+    border-radius: 20px;
+    margin-top: 46px;
+    margin-left: 140px;
+}
+
+.isilokasi{
+    display: flex;
+}
+
+#teks{
+    font-family: "Red Rose", 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 12.5px;
+    margin-left: 10px;
+}
+
+#maps{
+    background-image: url("maps.png");
+    background-size: cover;
+    width: 67px;
+    height: 50.5px;
+    margin-top: 12.5px;
+    margin-left: 10px;
+}

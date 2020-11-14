@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1{
+    font-family:"Red Rose";
+    font-size: 64px;
+    font-weight: bold;
+    color: #0C5256;
+}
+
+
+body{
+    text-align: center;
+    text-align-last: vertical;
+    background-image: url(bg.jpg);
+}
+
+
+input[name="email"]{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    height: 111px;
+    width: 690px;
+    border: none;
+    border-radius: 44px;
+    color: #0C5256;
+    opacity: 70%;
+}
+
+
+input[name="password"]{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    height: 111px;
+    width: 690px;
+    border: none;
+    border-radius: 44px;
+    color: #0C5256;
+    opacity: 70%;
+}
+
+::placeholder{
+    color: #0C5256;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.tombol #masuk{
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 20px;
+    height: 111px;
+    width: 690px;
+    border: none;
+    border-radius: 44px;
+    background-color: #0C5256;
+    opacity: 80%;
+    color: seashell;
+    font-weight: bold;
+}
+
+.tombol #a{
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 79px;
+    width: 350px;
+    border: none;
+    border-radius: 44px;
+    background-color: transparent;
+    opacity: 100%;
+    color: seashell;
+    font-weight: bold;
+    
+}
+
+.tombol #b{
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 79px;
+    width: 350px;
+    border: none;
+    border-radius: 44px;
+    background-color: transparent;
+    opacity: 100%;
+    color: seashell;
+    font-weight: bold;
+}
+
+.tombol #google{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    height: 79px;
+    width: 515px;
+    border: none;
+    border-radius: 44px;
+    color: seashell;
+    font-style: bold;
+    background-color: #DC5D5D;
+    opacity: 80%;
+    background-image: url(google.png);
+    background-position-x: 75px;
+    background-position-y: center;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}

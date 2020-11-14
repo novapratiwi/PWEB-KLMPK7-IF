@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.kotak .head{
+    height: 50px;
+    background-color: #0C5256;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+
+.oleholeh{
+    height: 418px;
+    background-image: url("oleholeh.png");
+    background-size: cover;
+}
+
+
+
+#txt1{
+    font-family: Righteous;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+#txt2{
+    font-family: Righteous;
+    font-size: 144px;
+    line-height: 179px;
+    color: #FFFFFF;
+}
+
+.bakpia{
+    margin: 77px;
+    display: flex;
+    width: 1340px;
+    height: 496px;
+    background-color:  #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+}
+
+#gambar1{
+    margin: 50px;
+    background-image: url("bakpia pathok.jpg");
+    background-size: cover;
+    width: 493px;
+    height: 416px;
+    left: 98px;
+    top: 614px;
+    border-radius: 49px;
+}
+
+
+
+#teks1{
+    margin: 50px;
+    background-color: white;
+    font-family: "red rose";
+    font-size: 22px;
+    width: 673px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.judul{
+    display: flex;
+    margin-top: 0px;
+    
+}
+
+h2{
+    margin-top: 5px;
+    width: 352px;
+    height: 54px;
+}
+
+#bintang {
+    background-image: url("Star.png");
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+#foto{
+    background-image: url(lokasi.png);
+    background-size: cover;
+    align-items: center;
+    width: 185px;
+    height: 65px;
+}
+
+.yangko{
+    margin: 77px;
+    display: flex;
+    width: 1340px;
+    height: 496px;
+    background-color:  #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#gambar2{
+    margin: 50px;
+    background-size: cover;
+    width: 493px;
+    height: 416px;
+    left: 98px;
+    top: 614px;
+    border-radius: 49px;
+    background-image: url("yangko.jpg");
+}
+
+#teks2{
+    margin: 50px;
+    background-color: white;
+    font-family: "red rose";
+    font-size: 22px;
+    width: 673px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+#bintang2{
+    background-image: url(Star.png);
+    background-size: cover;
+}
+
+.batik{
+    margin: 77px;
+    display: flex;
+    width: 1340px;
+    height: 496px;
+    background-color:  #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#gambar3{
+    margin: 50px;
+    background-size: cover;
+    width: 493px;
+    height: 416px;
+    left: 98px;
+    top: 614px;
+    border-radius: 49px;
+    background-image: url("batik.jpg");
+}
+
+#teks3{
+    margin: 50px;
+    background-color: white;
+    font-family: "red rose";
+    font-size: 22px;
+    width: 673px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+#bintang3{
+    background-image: url(Star.png);
+    background-size: cover;
+}
+
+.kerajinan{
+    margin: 77px;
+    display: flex;
+    width: 1340px;
+    height: 496px;
+    background-color:  #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#gambar4{
+    margin: 50px;
+    background-size: cover;
+    width: 493px;
+    height: 416px;
+    left: 98px;
+    top: 614px;
+    border-radius: 49px;
+    background-image: url("Kerajinan-Perak.jpg");
+}
+
+#teks4{
+    margin: 50px;
+    background-color: white;
+    font-family: "red rose";
+    font-size: 22px;
+    width: 673px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+#bintang4{
+    background-image: url(Star.png);
+    background-size: cover;
+}
+
+p{
+    margin-top: -20px;
+}
+
+.lokasi{
+    background-color: #0C5256;
+    width: 227px;
+    height: 85px;
+    margin-right: 50px;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    float: right;
+}
+
+.teks{
+    font-family: "Red Rose";
+    color: #ffffff;
+    font-size: 27px;
+}
+
+.maps{
+    background-image: url("maps.png");
+    width: 76px;
+    height: 66px;
+    margin-left: 22px;
+}
