@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.kotak .head{
+    height: 50px;
+    background-color: #0C5256;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+
+.judul{
+    height: 418px;
+    background-image: url("judul.png");
+}
+
+
+
+
+#txt1{
+    font-family: Righteous;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+#txt2{
+    font-family: Righteous;
+    font-size: 144px;
+    line-height: 179px;
+    color: #FFFFFF;
+}
+
+.atas{
+    display: flex;
+    margin: 103px;
+}
+
+.bawah{
+    display: flex;
+    margin: 103px;
+}
+
+.luar{
+    margin: 30px;
+    width: 362px;
+    height: 570px;
+    left: 52px;
+    top: 686px;
+    background-color: #0C5256;
+    border-radius: 20px; 
+}
+
+.bg{
+    background-color: #074448;
+    width: 328.33px;
+    height: 280px;
+    border-radius: 20px ;
+    margin: 16px;
+}
+
+#txt{
+    font-family: "red rose";
+    width: 211px;
+    height: 44px;
+    font-size: 31px;
+    color: white;
+    line-height: 39px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+#ikon{
+    background-image: url("cp.png");
+    width: 45px;
+    height: 43px;
+    display: flex;
+}
+
+#cp{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#nomer{
+    font-family: "red rose";
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.lokasi{
+    width: 205px;
+    height: 78px;
+    border-radius: 20px;
+    background-color:  white;
+    float: right;
+    margin-right: 17px;
+    margin-top: 20px;
+}
+
+#foto{
+    background-image: url(lokasi.png);
+    background-size: cover;
+    align-items: center;
+    width: 185px;
+    height: 66px;
+}
+    
+
+#travel1{
+    background-image: url("travel1.png");
+    background-size: cover;   
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+}
+
+#travel2{
+    background-image: url("travel2.png");
+    background-size: cover;
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+    
+}
+
+#travel3{
+    background-image: url("travel3.png");
+    background-size: cover;
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+}
+
+
+
+#travel4{
+    background-image: url("travel4.png");
+    background-size: cover;
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+}
+
+#travel5{
+    background-image: url("travel5.png");
+    background-size: cover;
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+}
+
+#travel6{
+    background-image: url("travel6.png");
+    background-size: cover;
+    width: 328.33px;
+    height: 280px;
+    align-items: center;
+}

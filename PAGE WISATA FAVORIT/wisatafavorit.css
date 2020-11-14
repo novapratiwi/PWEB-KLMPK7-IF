@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+/* style untuk home*/
+
+.header{
+	text-align: center;
+	margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+
+	
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+.bagian1 .gmbr{
+	justify-content: center;
+	display: flex;
+    margin: auto;
+	height: 418px;
+	background-image: url("utama.jpg");
+	background-size: cover;
+	line-height: 119px;	
+}
+
+.utama{
+	font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	letter-spacing: 20px;
+	color:  #ffffff;
+	font-family: "Righteous";
+	font-size: 96px;
+	text-align: center;
+}
+
+.bagian2{
+    margin-top: 98px;
+    margin-left: 50px;
+}
+
+.wisata1{
+    display: flex;
+}
+
+.gambar1{
+    background-image: url("Raja-Ampat.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 488px;
+    height: 338px;
+    padding-right: 375px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.wisata2{
+    display: flex;
+    margin-top: 79px;
+}
+
+.gambar2{
+    background-image: url("baluran.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 488px;
+    height: 338px;
+    padding-right: 345px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.wisata3{
+    display: flex;
+    margin-top: 79px;
+}
+
+.gambar3{
+    background-image: url("oetune.jpg");
+    background-size: cover;
+    background-position-y: -150px;
+    border-radius: 50px;
+    width: 488px;
+    height: 338px;
+    padding-right: 385px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.wisata4{
+    display: flex;
+    margin-top: 79px;
+}
+
+.gambar4{
+    background-image: url("toba.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 488px;
+    height: 338px;
+    padding-right: 360px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.wisata5{
+    display: flex;
+    margin-top: 79px;
+}
+
+.gambar5{
+    background-image: url("bromo.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 488px;
+    height: 338px;
+    padding-right: 375px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.nomor{
+    background-color: #0C5256;
+    width: 74px;
+    height: 74px;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Red Rose", 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.kotak{
+    border: 5px solid #0C5256;
+    width: 1221px;
+    height: 340px;
+    border-radius: 55px;
+    margin-left: 46px;
+    display: flex;
+}
+
+.keterangan{
+    margin-left: 44px;
+}
+
+h1{
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 46px;
+    margin-top: 0px;
+}
+
+p{
+    font-family: "Red Rose", 'Times New Roman', Times, serif;
+    font-size: 27px;
+    margin-top: -30px;
+}
+
+.bintang5{
+    background-image: url("bintang5.png");
+    background-size: cover;
+    width: 200px;
+    height: 40px;
+    float: right;
+}

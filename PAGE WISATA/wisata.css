@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+.utama .gmbr{
+    margin: auto;
+	height: 418px;
+	background-image: url("bromo.jpg");
+    background-size: cover;
+    background-position:0 -200px;
+}
+
+.tujuan{
+	font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	color:  #ffffff;
+	font-family: "Righteous";
+    font-size: 64px;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.tujuan > span{
+    font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	color:  #ffffff;
+	font-family: "Righteous";
+    font-size: 144px;
+}
+
+.bagian > div{
+    background-color: #f3f3f3;
+    width: 1340px;
+    height: 496px;
+    margin-top: 71px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#gambar1{
+    background-image: url("tamansari.jpg");
+    background-size: cover;
+    background-position-x: -50px;
+    width: 493px;
+    height: 416px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+#judulbintang1{
+    display: flex;
+    margin-top: 0px;
+}
+
+#bintang1{
+    background-image: url("bintang.png");
+    width: 63px;
+    height: 58px;
+    margin-left: 339px;
+}
+
+#gambar2{
+    background-image: url("prambanan.jpg");
+    background-size: cover;
+    background-position-x: -50px;
+    width: 493px;
+    height: 416px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+#judulbintang2{
+    display: flex;
+    margin-top: 0px;
+}
+
+#bintang2{
+    background-image: url("bintang.png");
+    width: 63px;
+    height: 58px;
+    margin-left: 179px;
+}
+
+#gambar3{
+    background-image: url("museumbenteng.jpg");
+    background-size: cover;
+    background-position-x: -50px;
+    width: 493px;
+    height: 416px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+#judulbintang3{
+    display: flex;
+    margin-top: 0px;
+}
+
+#bintang3{
+    background-image: url("bintang.png");
+    width: 63px;
+    height: 58px;
+    margin-left: -60px;
+}
+
+#gambar4{
+    background-image: url("borobudur.jpg");
+    background-size: cover;
+    background-position-x: -50px;
+    width: 493px;
+    height: 416px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+#judulbintang4{
+    display: flex;
+    margin-top: 0px;
+}
+
+#bintang4{
+    background-image: url("bintang.png");
+    width: 63px;
+    height: 58px;
+    margin-left: 193px;
+}
+
+.sejajar{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.penjelasan{
+    background-color: #ffffff;
+    width: 680px;
+    height: 295px;
+    padding-top:0px;
+}
+
+
+
+
+
+h1{
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 46px;
+    margin-top: 0px;
+}
+
+p{
+    font-family: "Red Rose";
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.lokasi{
+    background-color: #0C5256;
+    width: 227px;
+    height: 85px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.teks{
+    font-family: "Red Rose";
+    color: #ffffff;
+    font-size: 27px;
+}
+
+.maps{
+    background-image: url("maps.png");
+    width: 76px;
+    height: 66px;
+    margin-left: 22px;
+}
+
+

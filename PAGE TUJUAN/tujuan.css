@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+
+
+body{
+    margin: -16px 0px 0px 0px;
+}
+
+.header{
+	text-align: center;
+    margin: auto;
+	height: 85px;
+	background-color: #0C5256;
+}
+
+.header ul li{
+	font-family: "Roboto",'Times New Roman', Times, serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	margin:31.5px 100px 31.5px 100px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #0dacb4;
+}
+
+.utama .gmbr{
+	justify-content: center;
+	display: flex;
+    margin: auto;
+	height: 418px;
+	background-image: url("borobudur.png");
+    background-size: cover;
+    background-position: 0 -250px;
+}
+
+.tujuan{
+	font-family: "Righteous",'Times New Roman', Times, serif;
+	margin: auto;
+	letter-spacing: 20px;
+	color:  #ffffff;
+	font-family: "Righteous";
+    font-size: 203px;
+	text-align: center;
+}
+
+.bagian1{
+    justify-content: center;
+    display: flex;
+    margin-top: 140px;
+}
+
+
+#menu1{
+    background-image: url(bromo.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+    margin-right: 176.5px;
+}
+
+#menu2{
+    background-image: url(kuliner.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+}
+
+.bagian2{
+    justify-content: center;
+    display: flex;
+    margin-top: 140px;
+}
+
+
+#menu3{
+    background-image: url(oleholeh.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+    margin-right: 176.5px;
+}
+
+#menu4{
+    background-image: url(penginapan.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+}
+
+.bagian3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 140px;
+}
+
+#menu5{
+    background-image: url(festival.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+    margin-right: 176.5px;
+}
+
+#menu6{
+    background-image: url(travel.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    border-radius: 50px;
+    width: 534px;
+    height: 477px;
+}
+
+.namamenu{
+    font-family: "Red Rose", 'Times New Roman', Times, serif;
+    font-size: 72px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.container a{
+    text-decoration: none;
+}
